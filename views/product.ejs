@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/css/main.css" />
+    <script
+      src="https://kit.fontawesome.com/c176eff3a8.js"
+      crossorigin="anonymous"
+    ></script>
+    <title><%- product.name %> | Estandar Textil</title>
+  </head>
+  <body class="product__body">
+    <%- include('./header') %>
+    <section class="product content--wrapper">
+      <img class="product__bg" src="<%- product.url %> " alt="" />
+      <div class="product__controler">
+        <a class="product__link" href="/"
+          >Estandar Textil /
+          <a href="/products" class="product__link"
+            >Colecciones /
+            <a class="product__link" href="<%- product.slug %>"
+              ><%- product.name %></a
+            ></a
+          >
+        </a>
+      </div>
+      <div class="product__decoration"></div>
+      <h2 class="product__title"><%- product.name %></h2>
+      <div class="product--container"></div>
+      <div class="product--wrapper">
+        <div class="product__aside">
+          <h3 class="product__aside__title">Especificaciones Tecnicas</h3>
+          <div class="divider"></div>
+          <div class="product__aside__sector--container">
+            <h4 class="product__aside__sector__title">Sector del Producto</h4>
+            <% product.sector.forEach(element => { %>
+            <div class="product__aside__sector__icons">
+              <i class="product__aside__sector__icon <%- element.icon %>"></i>
+              <ul class="product__aside__sector__list">
+                <% for( let index = 0; index < element.usage.length; index++ ) {
+                %>
+                <li class="product__aside__sector__item">
+                  <%- element.usage[index] %>
+                </li>
+                <% } %>
+              </ul>
+            </div>
+            <% }) %>
+          </div>
+          <div class="product__aside__details">
+            <h4 class="product__aside__details__title">
+              Descripción del Producto
+            </h4>
+            <p class="product__aside__details__text">
+              <%- product.description %>
+            </p>
+          </div>
+        </div>
+        <div class="product__specs">
+          <div class="product__specs__colors">
+            <h3 class="product__specs__colors__title">Colores</h3>
+            <div class="product__specs__colors--wrapper">
+              <% for( let index = 0; index < product.colors.length; index++ ) {
+              %>
+              <div
+                class="product__specs__colors__color"
+                style="background-color: <%- product.colors[index] %>"
+              ></div>
+              <% }; %>
+            </div>
+            <p class="product__specs__colors__disclaimer">
+              Las muestras de color son indicativas, no son un reflejo exacto
+              del color del producto. Esto se debe a los ajustes y balances del
+              color del monitor, los colores son ilustrativos, solicite porfavor
+              muestras del producto antes de realizar cualquier pedido.
+            </p>
+          </div>
+          <div class="product__specs__specs">
+            <h3 class="product__specs__specs__title">Ficha Tecnica</h3>
+            <table class="product__specs__table">
+              <tr class="product__specs__row">
+                <th class="product__specs__header">Ancho</th>
+                <td class="product__specs__data">
+                  <%- product.fields.width %> cms
+                </td>
+              </tr>
+              <tr class="product__specs__row">
+                <th class="product__specs__header">Rendimiento por m2</th>
+                <td class="product__specs__data">
+                  <%- product.fields.height %> gr/m2
+                </td>
+              </tr>
+              <tr class="product__specs__row">
+                <th class="product__specs__header">Tejido</th>
+                <td class="product__specs__data">
+                  <%- product.fields.tissue %>
+                </td>
+              </tr>
+              <tr class="product__specs__row">
+                <th class="product__specs__header">Composición</th>
+                <td class="product__specs__data">
+                  <% for (let index = 0; index <
+                  product.fields.composition.length; index++) { %>
+                  <p class="product__comp">
+                    <%- product.fields.composition[index] %>
+                  </p>
+                  <% } %>
+                </td>
+              </tr>
+            </table>
+          </div>
+        </div>
+      </div>
+    </section>
+    <%- include('./footer') %>
+    <script src="/scripts/burger.js"></script>
+  </body>
+</html>

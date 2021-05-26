@@ -1,0 +1,107 @@
+$height--collection: 700px;
+$bg--collection: rgba(255, 255, 255, 1);
+$bg--our-work: rgba(255, 255, 255, 1);
+$font--collection: 'Barlow Condensed', sans-serif;
+$font--cards: 'Barlow', sans-serif;
+$offset--collection: 20em;
+$color--collection: rgba(255, 255, 255, 1);
+
+.collection__body {
+  background-color: rgba($color--dark, 0.6);
+  position: relative;
+}
+.collection__background {
+  height: $height--carousel;
+  object-fit: cover;
+  position: absolute;
+  top: 5em;
+  width: 100%;
+}
+.collection__controler {
+  background-color: rgba($color--dark, 0.6);
+  display: inline;
+  padding: 1em;
+}
+.collection__link {
+  color: $color--collection;
+  font-size: 0.8em;
+}
+
+// Collections
+.collection {
+  background: $bg--collection;
+  color: $color--dark;
+  font-size: 16px;
+  margin-top: $offset--collection;
+  padding: 1em 0 3em 0;
+  position: relative;
+}
+.collection--container {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 16px;
+  justify-content: space-evenly;
+}
+.collection__header {
+  font-family: $font--collection;
+  font-size: 3em;
+  letter-spacing: 1px;
+  margin-top: 1em;
+  margin-left: 1em;
+}
+.collection__card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin-top: 2em;
+  width: 45%;
+}
+.collection__thumb {
+  cursor: pointer;
+  height: 130px;
+  object-fit: cover;
+  transition: all ease 0.6s;
+  width: 100%;
+}
+.collection__thumb:hover {
+  opacity: 0.8;
+}
+.collection__info {
+  width: 100%;
+}
+.collection__title {
+  font-family: $font--cards;
+  margin-top: 0.5em;
+  margin-left: 0.5em;
+}
+.collection__color--container {
+  display: flex;
+  margin-top: 0.5em;
+  margin-left: 0.5em;
+}
+.collection__color {
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  margin-right: 0.3em;
+}
+
+@media screen and (max-width: $breakpoint) {
+  .collection__background {
+    top: 2em;
+  }
+  .collection {
+    font-size: 14px;
+  }
+  .collection--container {
+    flex-direction: column;
+  }
+  .collection__card {
+    width: 70%;
+  }
+  .collection__header {
+    margin-left: 0;
+    text-align: center;
+  }
+}

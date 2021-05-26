@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/css/main.css" />
+    <script
+      src="https://kit.fontawesome.com/c176eff3a8.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Home | Estandar Textil</title>
+  </head>
+  <body>
+    <!-- Header -->
+    <%- include('./header') %>
+    <!-- Carousel -->
+    <div class="carousel--container">
+      <div class="slide fade">
+        <img class="slide__img" src="/images/slide1.jpg" alt="" />
+      </div>
+      <div class="slide fade">
+        <img class="slide__img" src="/images/slide2.jpg" alt="" />
+      </div>
+      <div class="slide fade">
+        <img class="slide__img" src="/images/slide3.jpg" alt="" />
+      </div>
+    </div>
+    <div class="content--wrapper">
+      <!-- Hero -->
+      <main class="hero">
+        <h2 class="hero__title">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit
+        </h2>
+        <p class="hero__text">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+          aliquip ex ea commodo consequat.
+        </p>
+        <a href="/about">
+          <button class="btn hero__call-to-action">
+            <p>Conocenos</p>
+            <i class="hero__call-to-action__icon fas fa-arrow-right"></i>
+          </button>
+        </a>
+      </main>
+      <!-- Description -->
+      <section class="description">
+        <div class="description__info">
+          <h2 class="description__title">Estandar Textil</h2>
+          <div class="divider"></div>
+          <p class="description__text">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip ex ea commodo consequat. Duis aute irure dolor in
+            reprehenderit in voluptate velit esse cillum dolore eu fugiat.
+          </p>
+        </div>
+        <div class="description__info">
+          <h2 class="description__title">Nosotros</h2>
+          <div class="divider"></div>
+          <p class="description__text">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip ex ea commodo consequat. Duis aute irure dolor in
+            reprehenderit in voluptate velit esse cillum dolore eu fugiat.
+          </p>
+        </div>
+        <div class="align-center">
+          <a href="/about">
+            <button class="btn description__call-to-action align-center">
+              <p>Conocenos</p>
+              <i
+                class="description__call-to-action__icon fas fa-arrow-right"
+              ></i>
+            </button>
+          </a>
+        </div>
+      </section>
+      <!-- Usage -->
+      <section class="usage">
+        <% usage.forEach(element => { %>
+        <article class="card">
+          <img
+            class="card__img"
+            src="<%- element.urls.background %>"
+            alt="<%- element.alt %>"
+          />
+          <div class="card__overlay"></div>
+          <a href="/products">
+            <div class="card__info">
+              <div class="card__icon--container">
+                <i class="card__icon <%- element.urls.icon %>"></i>
+              </div>
+              <h3 class="card__title"><%- element.usage %></h3>
+              <p class="card__text"><%- element.description %></p>
+            </div>
+          </a>
+        </article>
+        <% }) %>
+      </section>
+    </div>
+    <!-- Projects -->
+    <section class="projects">
+      <h3 class="project__intro">colaboraciones</h3>
+      <div class="divider"></div>
+      <div class="projects--container content--wrapper" id="projects">
+        <% projects.forEach(element => { %>
+        <div class="project">
+          <img
+            class="project__thumb"
+            src="<%- element.urls.background %>"
+            alt="<%- element.alt %>"
+          />
+          <div class="project__info">
+            <h3 class="project__title"><%- element.project %></h3>
+            <p class="project__client">
+              Cliente: <span><%- element.client %></span>
+            </p>
+            <p class="project__sector">
+              Sector: <span><%- element.sector %></span>
+            </p>
+            <p class="project__detail"><%- element.description %></p>
+          </div>
+        </div>
+        <% }) %>
+      </div>
+    </section>
+    <!-- Why Us -->
+    <section class="why-us">
+      <h2 class="why-us__intro">¿Por qué elegirnos?</h2>
+      <div class="content--wrapper">
+        <div class="why-us__info">
+          <details class="why-us__details" open>
+            <summary class="why-us__title">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            </summary>
+            <p class="why-us__description">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+              Distinctio necessitatibus itaque pariatur expedita animi nesciunt
+              voluptates doloribus cum molestiae saepe! Laborum facere
+              voluptates molestiae quos minima consequuntur non praesentium
+              laboriosam.
+            </p>
+          </details>
+          <details class="why-us__details" open>
+            <summary class="why-us__title">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            </summary>
+            <p class="why-us__description">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+              Distinctio necessitatibus itaque pariatur expedita animi nesciunt
+              voluptates doloribus cum molestiae saepe! Laborum facere
+              voluptates molestiae quos minima consequuntur non praesentium
+              laboriosam.
+            </p>
+          </details>
+          <details class="why-us__details" open>
+            <summary class="why-us__title">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            </summary>
+            <p class="why-us__description">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+              Distinctio necessitatibus itaque pariatur expedita animi nesciunt
+              voluptates doloribus cum molestiae saepe! Laborum facere
+              voluptates molestiae quos minima consequuntur non praesentium
+              laboriosam.
+            </p>
+          </details>
+          <details class="why-us__details" open>
+            <summary class="why-us__title">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            </summary>
+            <p class="why-us__description">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+              Distinctio necessitatibus itaque pariatur expedita animi nesciunt
+              voluptates doloribus cum molestiae saepe! Laborum facere
+              voluptates molestiae quos minima consequuntur non praesentium
+              laboriosam.
+            </p>
+          </details>
+        </div>
+      </div>
+    </section>
+    <%- include('./footer') %>
+
+    <script src="/scripts/burger.js"></script>
+    <script src="/scripts/carousel.js"></script>
+  </body>
+</html>

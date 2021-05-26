@@ -1,0 +1,35 @@
+$font--hero: 'Barlow Condensed', sans-serif;
+$color--hero: rgba(255, 255, 255, 1);
+
+.hero {
+  color: $color--hero;
+  font-size: 16px;
+  position: absolute;
+  top: -500px;
+  width: 60%;
+}
+.hero__title {
+  font-family: $font--hero;
+  font-size: 3.5em;
+}
+.hero__text {
+  margin-top: 1.5em;
+}
+.hero__call-to-action {
+  align-items: center;
+  color: $color--hero;
+  display: flex;
+  font-size: 1.1em;
+  margin-top: 2.5em;
+}
+.hero__call-to-action__icon {
+  margin-left: 0.5em;
+}
+
+@media screen and (max-width: $breakpoint) {
+  .hero {
+    font-size: 14px;
+    top: -600px;
+    width: 100%;
+  }
+}

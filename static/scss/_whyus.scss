@@ -1,0 +1,49 @@
+$bg--why-us: rgba(39, 46, 66, 1);
+$color--why-us: rgba(255, 255, 255, 1);
+$font--why-us: 'Barlow Condensed', sans-serif;
+$font--secondary: 'Barlow', sans-serif;
+
+.why-us {
+  background: $bg--why-us;
+  color: $color--why-us;
+  font-size: 16px;
+  padding: 4em 0;
+}
+.why-us__intro {
+  font-family: $font--why-us;
+  font-size: 3em;
+  letter-spacing: 1px;
+  margin-bottom: 2em;
+  text-align: center;
+  text-transform: capitalize;
+}
+.why-us__info {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+}
+.why-us__details {
+  margin: 2em;
+  width: 35%;
+}
+.why-us__title {
+  font-family: $font--secondary;
+}
+.why-us__description {
+  font-size: 0.8em;
+  margin-top: 1em;
+}
+
+@media screen and (max-width: $breakpoint) {
+  .why-us {
+    font-size: 14px;
+  }
+  .why-us__info {
+    flex-direction: column;
+  }
+  .why-us__details {
+    width: 60%;
+  }
+}

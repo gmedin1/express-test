@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Colecciones | Estandar Textil</title>
+    <link rel="stylesheet" href="css/main.css" />
+    <script
+      src="https://kit.fontawesome.com/c176eff3a8.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body class="collection__body">
+    <%- include('./header') %>
+    <img
+      class="collection__background"
+      src="/images/background-collections.jpg"
+      alt=""
+    />
+    <div class="collection--control">collection--control</div>
+    <!-- Collections -->
+    <section class="collection content--wrapper">
+      <div class="collection__controler">
+        <a class="collection__link" href="/"
+          >Estandar Textil /
+          <a href="/products" class="collection__link">Colecciones</a>
+        </a>
+      </div>
+      <h2 class="collection__header">Colecciones</h2>
+      <div class="collection--container">
+        <% products.forEach(element => { %>
+        <article class="collection__card">
+          <a href="/products/<%- element.slug %>">
+            <img class="collection__thumb" src="<%- element.url %>" alt="" />
+          </a>
+          <div class="collection__info">
+            <h3 class="collection__title"><%- element.name %></h3>
+            <div class="collection__color--container">
+              <% for( let index = 0; index < element.colors.length; index++ ) {
+              %>
+              <div
+                class="collection__color"
+                style="background-color: <%- element.colors[index] %>"
+              ></div>
+              <% } %>
+            </div>
+          </div>
+        </article>
+        <% }) %>
+      </div>
+    </section>
+    <%- include('./footer') %>
+    <script src="/scripts/burger.js"></script>
+  </body>
+</html>

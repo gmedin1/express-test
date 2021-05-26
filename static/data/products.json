@@ -1,0 +1,190 @@
+[
+  {
+    "name": "Algodón Perchado",
+    "slug": "algodon-perchado",
+    "description": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.",
+    "colors": ["#000", "#444", "#00f", "#f00", "#fff"],
+
+    "fields": {
+      "height": 150,
+      "width": 260,
+      "tissue": "Plano",
+      "composition": ["Poliéster 60%", "Algodón 40%"]
+    },
+    "url": "/images/producto-algodon-perchado.jpg",
+    "sector": [
+      {
+        "icon": "fas fa-tshirt",
+        "usage": ["Busos", "Pantalones", "Chaquetas", "Sudaderas"]
+      }
+    ]
+  },
+  {
+    "name": "Briony",
+    "slug": "briony",
+    "description": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.",
+    "colors": ["#f00", "#0f0", "#000"],
+
+    "fields": {
+      "height": 150,
+      "width": 46,
+      "tissue": "Plano",
+      "composition": ["Poliéster 100%"]
+    },
+    "url": "/images/producto-briony.jpg",
+    "sector": [
+      {
+        "icon": "fas fa-home",
+        "usage": ["Decoración", "Sillas", "Cubremesas"]
+      },
+      {
+        "icon": "fas fa-tshirt",
+        "usage": ["Prendas de Vestir en General"]
+      },
+      {
+        "icon": "fas fa-th",
+        "usage": ["Forros", "Decoración", "Eventos"]
+      }
+    ]
+  },
+  {
+    "name": "Cerro Sport",
+    "slug": "cerro-sport",
+    "description": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.",
+    "colors": ["#f00", "#0f0", "#000"],
+    "fields": {
+      "height": 150,
+      "width": 74,
+      "tissue": "Plano",
+      "composition": ["Poliéster 100%"]
+    },
+    "url": "/images/producto-cerro-sport.jfif",
+    "sector": [
+      {
+        "icon": "fas fa-home",
+        "usage": ["Toldos", "Forros", "Cojínes"]
+      },
+      {
+        "icon": "fas fa-tshirt",
+        "usage": ["Chalecos", "Chaquetas", "Impermeables"]
+      },
+      {
+        "icon": "fas fa-th",
+        "usage": ["Carpas", "Forros", "Impermeables"]
+      }
+    ]
+  },
+  {
+    "name": "Fleece",
+    "slug": "fleece",
+    "description": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.",
+    "colors": ["#f00", "#0f0", "#000"],
+    "fields": {
+      "height": 150,
+      "width": 128,
+      "tissue": "Plano",
+      "composition": ["Poliéster 100%"]
+    },
+    "url": "/images/producto-fleece.jfif",
+    "sector": [
+      {
+        "icon": "fas fa-home",
+        "usage": ["Cojines", "Cobertores"]
+      },
+      {
+        "icon": "fas fa-th",
+        "usage": ["Mantas", "Forros", "Juguetes"]
+      }
+    ]
+  },
+  {
+    "name": "Nautica",
+    "slug": "nautica",
+    "description": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.",
+    "colors": ["#f00", "#0f0", "#000"],
+
+    "fields": {
+      "height": 150,
+      "width": 104,
+      "tissue": "Plano",
+      "composition": ["Poliéster 100%"]
+    },
+    "url": "/images/producto-nautica.jpg",
+    "sector": [
+      {
+        "icon": "fas fa-tshirt",
+        "usage": ["Chaquetas", "Blusas", "Camisas"]
+      }
+    ]
+  },
+  {
+    "name": "Nylon",
+    "slug": "nylon",
+    "description": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.",
+    "colors": ["#f00", "#0f0", "#000"],
+    "fields": {
+      "height": 150,
+      "width": 260,
+      "tissue": "Plano",
+      "composition": ["Poliester", "Algodon"]
+    },
+    "url": "/images/producto-nylon.jpg",
+    "sector": [
+      {
+        "icon": "fas fa-tshirt",
+        "usage": ["Chaquetas", "Rompevientos"]
+      }
+    ]
+  },
+  {
+    "name": "Taffeta",
+    "slug": "taffeta",
+    "description": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.",
+    "colors": ["#f00", "#0f0", "#000"],
+    "fields": {
+      "height": 150,
+      "width": 50,
+      "tissue": "Plano",
+      "composition": ["Poliéster 100%"]
+    },
+    "url": "/images/producto-taffeta.jpg",
+    "sector": [
+      {
+        "icon": "fas fa-home",
+        "usage": ["Decoración", "Forros"]
+      },
+      {
+        "icon": "fas fa-tshirt",
+        "usage": ["Disfraces"]
+      },
+      {
+        "icon": "fas fa-th",
+        "usage": ["Escenografía", "Banderas"]
+      }
+    ]
+  },
+  {
+    "name": "Tifón",
+    "slug": "tifon",
+    "description": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.",
+    "colors": ["#f00", "#0f0", "#000"],
+
+    "fields": {
+      "height": 150,
+      "width": 97,
+      "tissue": "Plano",
+      "composition": ["Poliéster 100%"]
+    },
+    "url": "/images/producto-tifon.jpg",
+    "sector": [
+      {
+        "icon": "fas fa-home",
+        "usage": ["Forros", "Carpas", "Protector de Carross"]
+      },
+      {
+        "icon": "fas fa-th",
+        "usage": ["Maletas", "Tulas", "Forros"]
+      }
+    ]
+  }
+]

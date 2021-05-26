@@ -1,0 +1,29 @@
+[
+  {
+    "usage": "Chaquetas",
+    "urls": {
+      "icon": "fas fa-tshirt",
+      "background": "/images/usage-jackets.jpg"
+    },
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "alt": ""
+  },
+  {
+    "usage": "usage 2",
+    "urls": {
+      "icon": "fas fa-home",
+      "background": "/images/thumbnail-usage-1.jpg"
+    },
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "alt": ""
+  },
+  {
+    "usage": "usage 3",
+    "urls": {
+      "icon": "fas fa-home",
+      "background": "/images/thumbnail-usage-1.jpg"
+    },
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "alt": ""
+  }
+]

@@ -1,0 +1,48 @@
+$font--description: 'Barlow Condensed', sans-serif;
+$color--description: rgba(116, 116, 116, 1);
+$color--secondary: rgba(255, 255, 255, 1);
+
+.description {
+  color: $color--description;
+  font-size: 16px;
+  margin-top: 6em;
+  padding: 64px 0;
+  position: relative;
+}
+.description__title {
+  font-family: $font--description;
+  font-size: 3em; // 48px
+  letter-spacing: 1px;
+  text-align: center;
+}
+.description__info > .divider {
+  background-color: $color--description;
+}
+.description__text {
+  padding: 3.5em 30% 6em 30%; // 56px 96px
+}
+.description__call-to-action--container {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+.description__call-to-action {
+  align-items: center;
+  color: $color--secondary;
+  display: flex;
+  font-size: 1em;
+  margin-top: 3em; // 48px
+}
+.description__call-to-action__icon {
+  margin-left: 0.5em; // 8px
+}
+
+@media screen and (max-width: $breakpoint) {
+  .description {
+    // top: -300px;
+  }
+  .description__text {
+    padding-left: 20%;
+    padding-right: 20%;
+  }
+}

@@ -1,0 +1,77 @@
+$bg--project: rgba(39, 46, 66, 1);
+$color--project: rgba(255, 255, 255, 1);
+$font--project: 'Barlow Condensed', sans-serif;
+$font--info: 'Barlow', sans-serif;
+
+.projects {
+  background-color: $bg--project;
+  color: $color--project;
+  font-size: 16px;
+  margin-top: 8em;
+  position: relative;
+}
+.project__intro {
+  font-family: $font--project;
+  font-size: 3em;
+  letter-spacing: 1px;
+  padding-top: 32px;
+  text-align: center;
+  text-transform: capitalize;
+}
+.projects > .divider {
+  background-color: $color--project;
+}
+.project {
+  display: flex;
+  margin-top: 32px;
+  padding-top: 2em;
+}
+.project__thumb {
+  height: 40%;
+  object-fit: cover;
+  position: relative;
+  top: -2em;
+  width: 60%;
+}
+.project__info {
+  margin-left: 2em;
+}
+.project__client,
+.project__sector,
+.project__detail {
+  margin-bottom: 1em;
+}
+.project__client,
+.project__sector {
+  font-family: $font--info;
+  font-size: 1.2em;
+  font-weight: bold;
+  text-transform: capitalize;
+  span {
+    font-weight: 400;
+  }
+}
+.project__title {
+  font-size: 1.5em;
+  font-family: $font--info;
+  margin-bottom: 2em;
+  text-transform: capitalize;
+}
+
+@media screen and (max-width: $breakpoint) {
+  .projects {
+    font-size: 14px;
+  }
+  .project__thumb {
+    width: 100%;
+  }
+  .project {
+    flex-direction: column;
+  }
+  .project__info {
+    margin-left: 0;
+    * {
+      text-align: center;
+    }
+  }
+}

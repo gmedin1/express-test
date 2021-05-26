@@ -1,0 +1,145 @@
+$bg--social: #dfdfdf;
+$bg--footer: rgba(0, 0, 0, 1);
+$color--footer: rgba(255, 255, 255, 1);
+$font--footer: 'Barlow', sans-serif;
+$font--brand: 'Barlow Condensed', sans-serif;
+
+.footer {
+  font-size: 16px;
+}
+
+/* Social */
+.social__wrapper {
+  background: $bg--social;
+  color: $color--dark;
+  padding: 1em 0;
+}
+.social {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+.social__icons {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  p {
+    $font--footer: 'Barlow', sans-serif;
+    font-family: $font--footer;
+    font-size: 1.5em;
+    font-weight: bold;
+    text-transform: capitalize;
+  }
+  i {
+    color: $color--dark;
+    margin-left: 0.3em;
+    font-size: 2.5em;
+  }
+}
+.social__email {
+  align-items: center;
+  display: flex;
+  label {
+    font-family: $font--footer;
+    font-size: 1.5em;
+    font-weight: bold;
+    text-transform: capitalize;
+  }
+  input,
+  button {
+    border: none;
+    border-radius: unset;
+  }
+  input {
+    font-family: $font--footer;
+    margin-left: 0.3em;
+    padding: 0.8em 0.3em;
+    text-align: center;
+    width: 250px;
+  }
+  button {
+    color: $color--dark;
+    cursor: pointer;
+    font-size: 0.8em;
+    font-weight: bold;
+    letter-spacing: 1px;
+    padding: 0.75rem 1.3em;
+    &:hover {
+      opacity: 0.8;
+    }
+  }
+}
+
+/* Footer */
+.footer__info {
+  align-items: center;
+  background-color: $bg--footer;
+  color: $color--footer;
+  display: flex;
+  font-size: 16px;
+  height: 400px;
+  justify-content: space-evenly;
+  padding: 2em 0;
+}
+.footer__location {
+  h3 {
+    font-family: $font--footer;
+    font-size: 3em;
+    text-transform: uppercase;
+  }
+  p {
+    font-size: 1.2em;
+    margin-top: 1em;
+  }
+  h3,
+  p {
+    text-align: center;
+  }
+}
+.footer__other {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: space-between;
+}
+.footer__details {
+  margin-top: 100px;
+  p {
+    text-transform: capitalize;
+    margin-bottom: 1em;
+  }
+  h1 {
+    font-family: $font--brand;
+    font-size: 3em;
+    text-transform: uppercase;
+  }
+}
+.footer__rights {
+  font-size: 0.6rem;
+  padding-top: 0.5em;
+}
+
+@media screen and (max-width: $breakpoint) {
+  .footer {
+    font-size: 14px;
+  }
+  .social,
+  .social__icons,
+  .social__email {
+    flex-direction: column;
+  }
+  .social__email--wrapper {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+  }
+  .social__icons--wrapper,
+  .social__email,
+  .social__email--wrapper {
+    margin-top: 1em;
+  }
+  .footer__info {
+    flex-direction: column;
+  }
+}

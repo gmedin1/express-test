@@ -1,0 +1,85 @@
+$color--card: rgba(255, 255, 255, 1);
+$bg--overlay: rgba(116, 116, 116, 0.4);
+$font--card: 'Barlow  ', sans-serif;
+
+.usage {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin-top: 32px;
+}
+.card {
+  font-size: 16px;
+  height: 60%;
+  margin-top: 32px;
+  position: relative;
+  width: 80%;
+}
+.card__img,
+.card__info {
+  height: 100%;
+  width: 100%;
+}
+.card__img {
+  object-fit: cover;
+}
+.card__info {
+  background-color: $bg--overlay;
+  color: $color--card;
+  cursor: pointer;
+  padding: 15%;
+  position: absolute;
+  transition: background-color ease 0.6s;
+  top: 0;
+  z-index: 200;
+}
+.card__icon--container,
+.card__title,
+.card__text {
+  text-align: center;
+}
+.card__title {
+  font-family: $font--card;
+  font-size: 2em; // 32px
+  letter-spacing: 1px;
+  margin-top: 0.5em; // 8px
+  text-transform: capitalize;
+}
+.card__text {
+  font-size: 0.9em; // aprox. 14px
+  margin-top: 2.5em; // 40px
+}
+.card__info:hover {
+  background-color: rgba($bg--overlay, 0.8);
+}
+.card__icon {
+  font-size: 2em; // 32px
+}
+
+@media screen and (max-width: $breakpoint) {
+  .usage {
+    position: relative;
+    // top: -200px;
+  }
+  .card {
+    font-size: 14px;
+    width: 90%;
+  }
+  .card__info {
+    padding: 10%;
+  }
+  .card__text {
+    display: none;
+  }
+  .card__info:hover .card__title {
+    display: none;
+  }
+  .card__info:hover .card__icon--container {
+    display: none;
+  }
+  .card__info:hover .card__text {
+    display: block;
+    position: relative;
+    top: -3em;
+  }
+}
