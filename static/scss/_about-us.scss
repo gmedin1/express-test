@@ -1,4 +1,5 @@
 $height--about: 700px;
+$color--btn: rgba(255, 255, 255, 1);
 $bg--about: rgba(255, 255, 255, 1);
 $bg--our-work: rgba(255, 255, 255, 1);
 $font--about: 'Barlow', sans-serif;
@@ -12,7 +13,7 @@ $offset--about: 20em;
   height: $height--carousel;
   object-fit: cover;
   position: absolute;
-  top: 5em;
+  top: 4em;
   width: 100%;
 }
 
@@ -63,7 +64,6 @@ $offset--about: 20em;
   background-color: $bg--our-work;
   color: $color--dark;
   font-size: 16px;
-  margin-bottom: 3em;
   padding-top: 3em;
   position: relative;
 }
@@ -82,8 +82,68 @@ $offset--about: 20em;
 .our-work__bg {
   width: 50%;
 }
-
+.our-work__btn--container {
+  align-items: flex-end;
+  display: flex;
+  justify-content: flex-end;
+  padding: 2em 0 4em 0;
+  margin-right: 15em;
+}
+.our-work__btn {
+  color: $color--btn;
+  font-size: 16px;
+}
+.additional {
+  align-items: center;
+  background-color: $bg--about;
+  display: flex;
+  justify-content: space-evenly;
+  padding-bottom: 4em;
+}
+.additional__card {
+  color: $color--dark;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  padding: 0.5em;
+  position: relative;
+  width: 250px;
+}
+.additional__img {
+  width: 100%;
+}
+.additional__card > .divider {
+  background-color: $color--dark;
+}
+.additional__icon {
+  border: 1px solid $color--dark;
+  font-size: 3em;
+  padding: 0.2em;
+  position: absolute;
+  top: 2em;
+}
+.additional__text {
+  margin-top: 2em;
+  text-align: center;
+}
+.additional__btn {
+  color: $color--btn;
+  padding: 1em 2em;
+  margin: 2em 0;
+}
 @media screen and (max-width: $breakpoint) {
+  .additional__text {
+    margin-top: 1em;
+  }
+  .additional {
+    font-size: 14px;
+    flex-direction: column;
+  }
+  .additional__card {
+    border: 1px solid rgba($color--dark, 0.6);
+    width: 70%;
+    margin-bottom: 1em;
+  }
   .about-us__background {
     top: 2em;
   }
@@ -111,5 +171,10 @@ $offset--about: 20em;
   .our-work__title {
     margin: 0;
     text-align: center;
+  }
+  .our-work__btn--container {
+    align-items: center;
+    justify-content: center;
+    margin-right: 0;
   }
 }

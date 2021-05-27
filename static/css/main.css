@@ -68,7 +68,7 @@ li {
 /* Blocks */
 .nav {
   background-color: black;
-  font-size: 28px;
+  font-size: 24px;
   height: 3em;
   position: fixed;
   width: 100%;
@@ -98,7 +98,7 @@ li {
 /* Navigation */
 .nav__link {
   color: white;
-  font-size: 0.5em;
+  font-size: 0.6em;
   margin-left: 2em;
   padding: 0.5em 1em; }
 
@@ -147,7 +147,7 @@ li {
 .carousel--container {
   font-size: 16px;
   position: relative;
-  top: 5em; }
+  top: 4em; }
 
 .slide {
   display: none; }
@@ -426,7 +426,7 @@ li {
   height: 700px;
   object-fit: cover;
   position: absolute;
-  top: 5em;
+  top: 4em;
   width: 100%; }
 
 .about-us {
@@ -473,7 +473,6 @@ li {
   background-color: white;
   color: #747474;
   font-size: 16px;
-  margin-bottom: 3em;
   padding-top: 3em;
   position: relative; }
 
@@ -492,7 +491,65 @@ li {
 .our-work__bg {
   width: 50%; }
 
+.our-work__btn--container {
+  align-items: flex-end;
+  display: flex;
+  justify-content: flex-end;
+  padding: 2em 0 4em 0;
+  margin-right: 15em; }
+
+.our-work__btn {
+  color: white;
+  font-size: 16px; }
+
+.additional {
+  align-items: center;
+  background-color: white;
+  display: flex;
+  justify-content: space-evenly;
+  padding-bottom: 4em; }
+
+.additional__card {
+  color: #747474;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  padding: 0.5em;
+  position: relative;
+  width: 250px; }
+
+.additional__img {
+  width: 100%; }
+
+.additional__card > .divider {
+  background-color: #747474; }
+
+.additional__icon {
+  border: 1px solid #747474;
+  font-size: 3em;
+  padding: 0.2em;
+  position: absolute;
+  top: 2em; }
+
+.additional__text {
+  margin-top: 2em;
+  text-align: center; }
+
+.additional__btn {
+  color: white;
+  padding: 1em 2em;
+  margin: 2em 0; }
+
 @media screen and (max-width: 980px) {
+  .additional__text {
+    margin-top: 1em; }
+  .additional {
+    font-size: 14px;
+    flex-direction: column; }
+  .additional__card {
+    border: 1px solid rgba(116, 116, 116, 0.6);
+    width: 70%;
+    margin-bottom: 1em; }
   .about-us__background {
     top: 2em; }
   .about-us,
@@ -513,7 +570,11 @@ li {
     margin: 2em 0; }
   .our-work__title {
     margin: 0;
-    text-align: center; } }
+    text-align: center; }
+  .our-work__btn--container {
+    align-items: center;
+    justify-content: center;
+    margin-right: 0; } }
 
 .collection__body {
   background-color: rgba(116, 116, 116, 0.6);
@@ -523,7 +584,7 @@ li {
   height: 700px;
   object-fit: cover;
   position: absolute;
-  top: 5em;
+  top: 4em;
   width: 100%; }
 
 .collection__controler {

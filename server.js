@@ -14,7 +14,7 @@ app.get('/', (req, res) => {
   res.render('index', { usage, projects });
 });
 app.get('/about', (req, res) => {
-  res.render('about');
+  res.render('about', { usage });
 });
 app.use('/products', product_router);
 

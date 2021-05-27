@@ -92,7 +92,25 @@
           mollis id libero eleifend, auctor congue quam.
         </p>
       </div>
-      <button class="btn our-work__btn">Ver Nuestro Catalogo</button>
+      <div class="our-work__btn--container">
+        <a href="/files/catalogo.pdf" target="_blank" class="our-work__btn--link">
+          <button class="btn our-work__btn">Nuestro Catalogo</button>
+        </a>
+      </div>
+    </section>
+    <!-- Usos -->
+    <section class="additional content--wrapper">
+      <% usage.forEach(element => { %>
+        <article class="additional__card">
+          <img class="additional__img" src="<%- element.urls.background %>" alt="">
+          <div class="divider"></div>
+          <i class="additional__icon <%- element.urls.icon %>"></i>
+          <p class="additional__text"><%- element.description  %></p>
+          <a href="/products">
+            <button class="additional__btn btn">Colecciones</button>
+          </a>
+        </article>
+      <% }) %>
     </section>
     <%- include('./footer') %>
     <script src="/scripts/burger.js"></script>
