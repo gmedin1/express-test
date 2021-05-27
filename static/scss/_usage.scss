@@ -18,6 +18,7 @@ $font--card: 'Barlow  ', sans-serif;
 .card__img,
 .card__info {
   height: 100%;
+  max-height: 350px;
   width: 100%;
 }
 .card__img {
@@ -56,10 +57,24 @@ $font--card: 'Barlow  ', sans-serif;
   font-size: 2em; // 32px
 }
 
+@media screen and (max-width: 650px) {
+  .card,
+  .card__img,
+  .card__info {
+    height: 150px;
+    max-height: 150px;
+  }
+}
+
 @media screen and (max-width: $breakpoint) {
+  .card,
+  .card__img,
+  .card__info {
+    height: 280px;
+    max-height: 280px;
+  }
   .usage {
     position: relative;
-    // top: -200px;
   }
   .card {
     font-size: 14px;

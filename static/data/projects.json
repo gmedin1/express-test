@@ -2,11 +2,11 @@
   {
     "project": "Ropa",
     "urls": {
-      "background": "/images/thumbnail-usage-1.jpg"
+      "background": "/images/project-clothes.jpg"
     },
     "client": "",
     "sector": "Marroquinería y Prendas de Vestir",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+    "description": "Somos proveedores de importantes marca de ropa a nivel nacional, logramos completar proyectos con grandes fabricantes de textiles y marroquinería.",
     "alt": ""
   }
 ]

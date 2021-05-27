@@ -2,8 +2,8 @@
   {
     "name": "Algodón Perchado",
     "slug": "algodon-perchado",
-    "description": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.",
-    "colors": ["#000", "#444", "#00f", "#f00", "#fff"],
+    "description": "El algodón perchado es un textil grueso, resistente y optimo para productos pensados para ser utilizados en bajas temperaturas como chaquetas y busos. Es una tela de alta calidad que no se destiñe, no se encoge y perdura en el tiempo.",
+    "colors": ["#000", "#c1c1c1", "#0c099e", "#f10a0a", "#fff"],
 
     "fields": {
       "height": 150,
@@ -22,8 +22,8 @@
   {
     "name": "Briony",
     "slug": "briony",
-    "description": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.",
-    "colors": ["#f00", "#0f0", "#000"],
+    "description": "La tela briony es un textil liviano, delgado y transparente, que sirve para uso exterior, decoraciones e implementaciones para eventos; por su fácil manupulación es versatil y flexible.",
+    "colors": ["#000", "#c1c1c1", "#0c099e", "#f10a0a", "#fff"],
 
     "fields": {
       "height": 150,
@@ -50,8 +50,8 @@
   {
     "name": "Cerro Sport",
     "slug": "cerro-sport",
-    "description": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.",
-    "colors": ["#f00", "#0f0", "#000"],
+    "description": "Cerro Sport es una tela impermeable, flexible y liviana, de excelente calidad. Tiene una amplia usabilidad, sobretodo en chaquetas, carpas, forros y otros productos para repeler el agua",
+    "colors": ["#000", "#c1c1c1", "#0c099e", "#f10a0a", "#fff"],
     "fields": {
       "height": 150,
       "width": 74,
@@ -77,8 +77,8 @@
   {
     "name": "Fleece",
     "slug": "fleece",
-    "description": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.",
-    "colors": ["#f00", "#0f0", "#000"],
+    "description": "Fleece un textil suave, grueso y duradero capaz de generar calor, por tener una textura similar al algodón, por lo cual es ideal para la confección de productos de hogar como cobijas, mantas, muñequeria y más.",
+    "colors": ["#000", "#c1c1c1", "#0c099e", "#f10a0a", "#fff"],
     "fields": {
       "height": 150,
       "width": 128,
@@ -100,8 +100,8 @@
   {
     "name": "Nautica",
     "slug": "nautica",
-    "description": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.",
-    "colors": ["#f00", "#0f0", "#000"],
+    "description": "Una tela impermeable, de reconocmiento internacional, corrugada, perfecta para la confección de prendas de vestir elegantes y de alta calidad.",
+    "colors": ["#000", "#c1c1c1", "#0c099e", "#f10a0a", "#fff"],
 
     "fields": {
       "height": 150,
@@ -120,8 +120,8 @@
   {
     "name": "Nylon",
     "slug": "nylon",
-    "description": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.",
-    "colors": ["#f00", "#0f0", "#000"],
+    "description": "El Nylon es resistente, impermeable y liviano, usado en chaquetas o cualquier tipo de prendas rompevientos, de uso cotidiano, por lo cual es una tela de alta calidad y sobretodo duradera.",
+    "colors": ["#000", "#c1c1c1", "#0c099e", "#f10a0a", "#fff"],
     "fields": {
       "height": 150,
       "width": 260,
@@ -139,8 +139,8 @@
   {
     "name": "Taffeta",
     "slug": "taffeta",
-    "description": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.",
-    "colors": ["#f00", "#0f0", "#000"],
+    "description": "La Taffeta es una tela que se confecciona con seda y que se caracteriza por su escaso grosor, es una de las telas mas conocidas por los diseñadores de moda, por ser un producto versatil a la luz, usado en abrigos, chaquetas y vestidos.",
+    "colors": ["#000", "#c1c1c1", "#0c099e", "#f10a0a", "#fff"],
     "fields": {
       "height": 150,
       "width": 50,
@@ -166,8 +166,8 @@
   {
     "name": "Tifón",
     "slug": "tifon",
-    "description": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.",
-    "colors": ["#f00", "#0f0", "#000"],
+    "description": "El una textil grueso y resistente que evita filtrasiones liquidas, es usado comúnmente para la producción de forros, chaquetas y tulas impermeables.",
+    "colors": ["#000", "#c1c1c1", "#0c099e", "#f10a0a", "#fff"],
 
     "fields": {
       "height": 150,

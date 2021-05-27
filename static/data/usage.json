@@ -1,29 +1,29 @@
 [
   {
-    "usage": "Chaquetas",
+    "usage": "Ropa y Chaquetas",
     "urls": {
       "icon": "fas fa-tshirt",
       "background": "/images/usage-jackets.jpg"
     },
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "description": "Nuestras telas son idoneas para la confección de chaquetas, impermeables, chalecos y otros productos de la industria de la moda.",
     "alt": ""
   },
   {
-    "usage": "usage 2",
+    "usage": "Hogar",
     "urls": {
       "icon": "fas fa-home",
-      "background": "/images/thumbnail-usage-1.jpg"
+      "background": "/images/usage-home.jpg"
     },
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "description": "Nuestras telas sirven para la confección de decorativos para hogar, forros, cojinería, cobertores, para dormitorios, exteriores y salas de estar.",
     "alt": ""
   },
   {
-    "usage": "usage 3",
+    "usage": "Varios",
     "urls": {
-      "icon": "fas fa-home",
-      "background": "/images/thumbnail-usage-1.jpg"
+      "icon": "fas fa-th",
+      "background": "/images/usage-varios.jpg"
     },
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "description": "Nuestros productos son perfectos para la confección de productos como maletas, forros para electrodomésticos, escenografías, juguetería y más",
     "alt": ""
   }
 ]

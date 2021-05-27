@@ -198,7 +198,7 @@ li {
 @media screen and (max-width: 980px) {
   .hero {
     font-size: 14px;
-    top: -600px;
+    top: -650px;
     width: 100%; } }
 
 .description {
@@ -256,6 +256,7 @@ li {
 .card__img,
 .card__info {
   height: 100%;
+  max-height: 350px;
   width: 100%; }
 
 .card__img {
@@ -293,7 +294,19 @@ li {
 .card__icon {
   font-size: 2em; }
 
+@media screen and (max-width: 650px) {
+  .card,
+  .card__img,
+  .card__info {
+    height: 150px;
+    max-height: 150px; } }
+
 @media screen and (max-width: 980px) {
+  .card,
+  .card__img,
+  .card__info {
+    height: 280px;
+    max-height: 280px; }
   .usage {
     position: relative; }
   .card {
@@ -926,6 +939,7 @@ li {
   justify-content: space-between; }
 
 .footer__details {
+  text-align: center;
   margin-top: 100px; }
   .footer__details p {
     text-transform: capitalize;
