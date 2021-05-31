@@ -163,7 +163,11 @@ $font--aside: 'Barlow Condensed', sans-serif;
   .product__specs__data {
     font-size: 0.8em;
   }
+  .product__specs__colors--wrapper {
+    flex-wrap: wrap;
+  }
   .product__specs__colors__color {
+    margin-top: 0.5em;
     height: 30px;
     width: 30px;
   }

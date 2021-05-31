@@ -3,15 +3,45 @@ $color--header: rgba(255, 255, 255, 1);
 $font--logo: 'Barlow Condensed', sans-serif;
 
 .nav {
-  background-color: $bg--header;
   font-size: 24px;
   height: 3em;
   position: fixed;
   width: 100%;
   z-index: 400;
 }
+
+// Info
+.prenav {
+  align-items: center;
+  background-color: $color--dark;
+  color: #fff;
+  font-weight: bold;
+  letter-spacing: 1px;
+  display: flex;
+  font-size: 16px;
+  justify-content: space-around;
+}
+.nit {
+  color: #fff;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+.payment--methods {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+.payment {
+  height: 24px;
+  margin: 0.2em 0.3em;
+  font-size: 24px;
+  color: #fff;
+}
+
+// Nav
 .navbar__nav {
   align-items: center;
+  background-color: $bg--header;
   display: flex;
   height: inherit;
   justify-content: space-around;

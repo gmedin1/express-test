@@ -17,5 +17,5 @@ function initialize_carousel() {
 
   slides[index - 1].style.display = 'block';
 
-  setTimeout(initialize_carousel, 8000);
+  setTimeout(initialize_carousel, 5000);
 }

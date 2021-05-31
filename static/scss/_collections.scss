@@ -81,10 +81,16 @@ $color--collection: rgba(255, 255, 255, 1);
   margin-left: 0.5em;
 }
 .collection__color {
+  border: 1px solid rgba($color--dark, 0.6);
   border-radius: 50%;
   width: 20px;
   height: 20px;
   margin-right: 0.3em;
+}
+.collection__more--container {
+  align-items: center;
+  display: flex;
+  justify-content: center;
 }
 
 @media screen and (max-width: $breakpoint) {
@@ -103,5 +109,8 @@ $color--collection: rgba(255, 255, 255, 1);
   .collection__header {
     margin-left: 0;
     text-align: center;
+  }
+  .collection__more {
+    font-size: 0.8em;
   }
 }
